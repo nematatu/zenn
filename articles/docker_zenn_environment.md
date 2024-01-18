@@ -9,5 +9,5 @@ published: true
 # はじめに
 testだよ〜ん
 aaa
-![Alt text](/images/ztmy.png)
+![](https://storage.googleapis.com/zenn-user-upload/79a423fd79ac-20240119.png)
 testdayo-n
