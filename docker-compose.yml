@@ -1,13 +1,12 @@
-version: '3'
+version: "3"
+
 services:
   zenn:
-    build: 
+    build:
       context: .
       dockerfile: docker/Dockerfile
-    environment:
-      - SSH_AUTH_SOCK=${SSH_AUTH_SOCK}
     ports:
-      - 8000:8000
+      - "8000:8000"
     volumes:
       - ".:/workspace"
     command: npx zenn preview

@@ -8,3 +8,6 @@ published: true
 
 # はじめに
 testだよ〜ん
+aaa
+![Alt text](/images/ztmy.png)
+testdayo-n
