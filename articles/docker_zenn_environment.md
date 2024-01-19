@@ -139,7 +139,7 @@ https://zenn.dev/dashboard/uploader
 記事が作成できたら[http://localhost:8000]にアクセスすることでプレビューで確認できる
 ![](https://storage.googleapis.com/zenn-user-upload/f6e7612c8d6a-20240119.png)
 ↓リアルタイムで反映される
-![zenn.gif](/images/zenn1.gif)
+![](/images/zenn1.gif)
 ## 記事の投稿
 zennと連携済みのGitHubレポジトリにpushすることで投稿されます
 ## VSCode拡張機能でより快適な執筆環境を作る
