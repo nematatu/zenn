@@ -5,6 +5,7 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [docker,zenn]
 published: true
 ---
+
 # はじめに
 タイトル通り「DockerにZennCLIの環境構築」するときの備忘録です
 ## 動作環境
@@ -15,7 +16,7 @@ Docker 24.0.7
 - npmでZennCLIをインストール
 - docker-composeを使ってコンテナを立ち上げたときにプレビューできるようにする
 - VSCode拡張機能でより快適な執筆環境を作る
-# TL/DR;
+# TL;DR
 ## ディレクトリ構成
 下記に示す`Dockerfile`と`docker-compose.yml`をコピペしたら構築できる
 ```bash:ディレクトリ構成
@@ -155,16 +156,16 @@ zennと連携済みのGitHubレポジトリにpushすることで投稿されま
 ![](https://storage.googleapis.com/zenn-user-upload/d3d6ef9419f0-20240119.png)
 ```json:snippets
 {
- {
-	"prefix": "zenn_article",
-	    "body": [
+	"zenn_article":{
+		"prefix": "zenn_article",
+		"body": [
 			"# はじめに"
 			"$1"
 			"## 動作環境"
 			"$2"
 			"## 目標"
 			"$3"
-			"# TL/DR;"
+			"# TL;DR"
 			"$4"
 			"# 手順"
 			"$5"
