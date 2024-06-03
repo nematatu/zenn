@@ -1,5 +1,5 @@
 ---
-title: "[Linuxコマンド] 標準出力から該当文字のみハイライトしたい！d"
+title: "[Linuxコマンド] 標準出力から該当文字のみハイライトしたい！"
 emoji: "😸"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [Linux,unix,mac]
